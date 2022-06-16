@@ -1,1 +1,4 @@
 .vscode/
+node_modules/
+exercises/node_modules/
+studio/node_modules/
