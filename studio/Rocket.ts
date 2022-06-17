@@ -1,12 +1,12 @@
-import { Astronaut } from "./Astronaut";
-import { Cargo } from "./Cargo";
 import { Payload } from "./Payload";
+import { Cargo } from "./Cargo";
+import { Astronaut } from "./Astronaut";
 
 export class Rocket {
   name: string;
   totalCapacityKg: number;
-  cargoItems: Array<Cargo> = [];
-  astronauts: Array<Astronaut> = [];
+  cargoItems: Cargo[] = [];
+  astronauts: Astronaut[] = [];
 
   constructor(name: string, totalCapacityKg: number) {
     this.name = name;
